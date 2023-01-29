@@ -41,6 +41,7 @@ export default function Home() {
         onPress: () => {
           setTasks((prevState) => prevState.filter((Task) => Task !== name)),
             setCountAdd(countAdd - 1);
+            setCountDone(countDone - 1);
         },
       },
       {
